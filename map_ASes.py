@@ -63,6 +63,12 @@ with open(filename, 'rb') as f:
         tus = set(temp)&us
 
 
+        ### TODO: US NETWORK     ###
+
+        ### TODO: BRAZIL NETWORK ###
+
+        ### BRAZIL TO US ROUTES  ###
+
 	if len(tbr) > 0 and len(tus) > 0: #For lines that have both a BR-AS and a US-AS add edges between those ASes
             # left trim non brazil and US ASes
             for t in temp:
